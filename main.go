@@ -21,7 +21,7 @@ func main() {
 			res.EnvVars = append(res.EnvVars, pair[0]+"="+pair[1])
 		}
 
-		for i := 1; i <= 200; i++ {
+		for i := 1; i <= 93; i++ {
 			res.Fib = append(res.Fib, f())
 		}
 
